@@ -1,0 +1,48 @@
+{
+  "swift-winrt": "0.5.0",
+  "package": {
+    "id": "Microsoft.Windows.SDK.Contracts",
+    "version": "10.0.18362.2005"
+  },
+  "project": "UWP",
+  "include": [
+    "Windows.ApplicationModel.Activation.LaunchActivatedEventArgs",
+    "Windows.ApplicationModel.Core",
+    "Windows.ApplicationModel.DataTransfer",
+    "Windows.ApplicationModel.DataTransfer.DragDrop",
+    "Windows.Management.Deployment.PackageManager",
+    "Windows.ApplicationModel.Activation.ProtocolActivatedEventArgs",
+    "Windows.Devices.Input",
+    "Windows.Foundation.IMemoryBufferReference",
+    "Windows.Foundation.IPropertyValue",
+    "Windows.Graphics",
+    "Windows.Graphics.DirectX.Direct3D11",
+    "Windows.Graphics.Effects",
+    "Windows.Graphics.Imaging",
+    "Windows.Media.Audio",
+    "Windows.Media.Casting",
+    "Windows.Media.Core.MediaSource",
+    "Windows.Media.Render",
+    "Windows.Media.Playback.MediaPlayer",
+    "Windows.Storage.Streams",
+    "Windows.Storage.Pickers",
+    "Windows.System.Launcher",
+    "Windows.System.Diagnostics.SystemDiagnosticInfo",
+    "Windows.System.VirtualKeyModifiers",
+    "Windows.UI.Color",
+    "Windows.UI.Composition",
+    "Windows.UI.Core.CoreCursor",
+    "Windows.UI.Core.CoreWindow",
+    "Windows.UI.Notifications",
+    "Windows.UI.Text.TextDecorations",
+    "Windows.UI.Text.FontWeights",
+    "Windows.UI.Text.FontStyle",
+    "Windows.UI.Text.FontStretch",
+    "Windows.UI.ViewManagement.UISettings"
+  ],
+  "exclude": [
+    "Windows.Devices.Enumeration.Panel",
+    "Windows.Management.Deployment.PackageStatus",
+    "Windows.ApplicationModel.Core.CoreApplication",
+  ]
+}
